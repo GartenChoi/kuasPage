@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>KUAS</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="../img/favicon.png" rel="icon">
+  <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ../libraries CSS Files -->
+  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<header id="header">
+  <div class="container-fluid">
+
+    <div id="logo" class="pull-left">
+      <h1><a href="/ko/" class="scrollto"><img src="../img/favicon.png" alt="" title="" />&nbsp;KUAS</a></h1>
+    </div>
+
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        <li class="menu-active"><a href="#intro">Home</a></li>
+        <li><a href="/ko/About">About Us</a></li>
+        <li class="menu-has-children"><a href="">Board</a>
+          <ul>
+            <li><a href="#">Notice</a></li>
+            <li><a href="#">Q&amp;A</a></li>
+          </ul>
+        </li>
+        <li><a href="#portfolio">Works</a></li>
+        <li><a href="/en/">English</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="display:none" module="Layout_statelogoff"><a href="#team">회원가입</a></li>
+        <li style="display:none" module="Layout_statelogoff"><a href="#team">로그인</a></li>
+        <li module="Layout_stateLogon"><a href="#team">회원정보</a></li>
+        <li module="Layout_stateLogon"><a href="{$action_logout}">로그아웃</a></li>
+      </ul>
+    </nav><!-- #nav-menu-container -->
+  </div>
+</header><!-- #header -->
+
+<section id="intro">
+  <div class="intro-container">
+    <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active">
+          <div class="carousel-background"><img src="../img/intro-carousel/1.jpg" alt=""></div>
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2>고려대학교 합성생물학회 KUAS</h2>
+              <p>KUAS는 고려대학교 합성생물학회입니다. 블라블라 어쩌구저쩌구 이러쿵저러쿵</p>
+              <a href="#featured-services" class="btn-get-started scrollto">KUAS 소개 보기</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-background"><img src="../img/intro-carousel/2.jpg" alt=""></div>
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2>iGEM 준비중</h2>
+              <p>iGEM은 어쩌구저쩌구...</p>
+              <a href="#featured-services" class="btn-get-started scrollto">igem.org로 이동</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-background"><img src="../img/intro-carousel/3.jpg" alt=""></div>
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2>합성생물학회</h2>
+              <p>합성생물학은 어쩌구 저쩌구</p>
+              <a href="#featured-services" class="btn-get-started scrollto">위키 페이지로 이동</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-background"><img src="../img/intro-carousel/4.jpg" alt=""></div>
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2>저희를 후원해주세요</h2>
+              <p>다양한 후원 방식이 있습니다!</p>
+              <a href="#featured-services" class="btn-get-started scrollto">후원 안내</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-background"><img src="../img/intro-carousel/5.jpg" alt=""></div>
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2>팀원 모집중이에요!</h2>
+              <p>누구나 환영한답니다.</p>
+              <a href="#featured-services" class="btn-get-started scrollto">팀원 상시 모집</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </div>
+</section><!-- #intro -->
+
+<main id="main">
+
+  <!--section id="featured-services">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 box">
+          <i class="ion-ios-bookmarks-outline"></i>
+          <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
+          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+        </div>
+
+        <div class="col-lg-4 box box-bg">
+          <i class="ion-ios-stopwatch-outline"></i>
+          <h4 class="title"><a href="">Dolor Sitema</a></h4>
+          <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+        </div>
+
+        <div class="col-lg-4 box">
+          <i class="ion-ios-heart-outline"></i>
+          <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+          <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- #featured-services -->
+
+  <!--==========================
+    About Us Section
+  ============================-->
+  <section id="about">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>About Us</h3>
+        <p>고려대학교 합성생물학회 (이하 KUAS)는 고려대학교 내 다양한 전공의 대학생들이 자발적으로 모여서 구성된 학회로서, ‘합성생물학’ 에 대한 연구를 함과 동시에 주제와 관련된 사회공헌활동을 통해 과학과 대중의 소통을 선도하고 있으며, 국제합성생물학회 (International Genetically Engineered Machine, 이하 iGEM)에 한국 유일 학부생 팀으로서 매년 참여하여 우수한 성과를 내고 있습니다. 학부생으로 구성된 저희 학회원들은 생명공학부 최인걸 교수님의 계산 및 합성생물학 연구실 밑에서 가르침을 받으며 직접적인 합성생물학 연구 및 대내외적으로 관련된 봉사와 대외활동들을 진행함으로써 실험실 안은 물론, 밖에서도 대중과 사회에 긍정적인 영향을 주고자 노력하고 있습니다. 합성생물학은 국내에서 아직은 많이 개척되지 않은 분야입니다. 새로운 생명을 창조하는 윤리성이 개입된 학문임에도 국내의 사회적 관심이 부족하여 과학윤리가 합성생물학의 발전을 따라가지 못하고 있습니다. 이에 본 학회는 단지 대회에 참가하는 것을 넘어서서 합성생물학에 대한 대중의 관심을 도모하고 이에 얽힌 윤리적 문제를 사회적으로 알리는 역할도 겸할 것입니다.</p>
+      </header>
+
+      <div class="row about-cols">
+
+        <div class="col-md-4 wow fadeInUp">
+          <div class="about-col">
+            <div class="img">
+              <img src="../img/about-mission.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            </div>
+            <h2 class="title"><a href="#">Wet Lab</a></h2>
+            <p>
+              실험
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="about-col">
+            <div class="img">
+              <img src="../img/about-plan.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-list-outline"></i></div>
+            </div>
+            <h2 class="title"><a href="#">Dry Lab</a></h2>
+            <p>
+              데이터 분석
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="about-col">
+            <div class="img">
+              <img src="../img/about-vision.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+            </div>
+            <h2 class="title"><a href="#">Human Practices</a></h2>
+            <p>
+              합성생물학을 알리고...
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+
+      <header class="section-header wow fadeInUp">
+        <h3>Works</h3>
+        <p>저희는 다양한 활동을 합니다.</p>
+      </header>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+          <h4 class="title"><a href="">합성생물학 공부</a></h4>
+          <p class="description">합성생물학에 대해 공부합니다.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+          <h4 class="title"><a href="">연구 진행</a></h4>
+          <p class="description">연구 계획부터 결과도출까지 스스로 합니다.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+          <h4 class="title"><a href="">iGEM 참가</a></h4>
+          <p class="description">iGEM에 참가합니다.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+          <h4 class="title"><a href="">합성생물학 대중화</a></h4>
+          <p class="description">합성생물학을 알립니다.</p>
+        </div>
+        <!--div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
+          <h4 class="title"><a href="">Nemo Enim</a></h4>
+          <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="icon"><i class="ion-ios-people-outline"></i></div>
+          <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+          <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam ../libero tempore, cum soluta nobis est eligendi</p>
+        </div-->
+
+      </div>
+
+    </div>
+  </section><!-- #services -->
+  <section id="call-to-action" class="wow fadeIn">
+    <div class="container text-center">
+      <h3>팀원 상시모집</h3>
+      <p>팀원 상시 모집합니다. 학과 나이 상관없이 열정있는 학우를 기다립니다.</p>
+      <a class="cta-btn" href="#">지원하기</a>
+    </div>
+  </section><!-- #call-to-action -->
+
+  <!--section id="skills">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>Our Skills</h3>
+        <p>저희는 10여년간의 경력을 바탕으로 iGEM에 참가합니다.</p>
+      </header>
+
+      <div class="skills-content">
+
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <span class="skill">HTML <i class="val">100%</i></span>
+          </div>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <span class="skill">CSS <i class="val">90%</i></span>
+          </div>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <span class="skill">JavaScript <i class="val">75%</i></span>
+          </div>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+            <span class="skill">Photoshop <i class="val">55%</i></span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section-->
+  <section id="facts"  class="wow fadeIn">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>Facts</h3>
+        <p>KUAS는 합성생물학회입니다.</p>
+      </header>
+
+      <div class="row counters">
+        <div class="col-lg-3 col-6 text-center">
+          <span data-toggle="counter-up">10</span>
+          <p>Years</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-toggle="counter-up">9</span>
+          <p>iGEM Awards</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-toggle="counter-up">17</span>
+          <p>Awards</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-toggle="counter-up">12</span>
+          <p>Members</p>
+        </div>
+
+      </div>
+
+      <div class="facts-img">
+        <img src="../img/facts-img.png" alt="" class="img-fluid">
+      </div>
+
+    </div>
+  </section><!-- #facts -->
+
+  <!--section id="portfolio"  class="section-bg" >
+    <div class="container">
+
+      <header class="section-header">
+        <h3 class="section-title">활동</h3>
+      </header>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">전체</li>
+            <li data-filter=".filter-igem">iGEM</li>
+            <li data-filter=".filter-etc">기타</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="iGEM2009" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2009</a></h4>
+              <p>이런 활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp" data-wow-delay="0.1s">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="iGEM2010" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2010</a></h4>
+              <p>...활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp" data-wow-delay="0.2s">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="iGEM2011" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2011</a></h4>
+              <p>활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="iGEM2012" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2012</a></h4>
+              <p>이런 활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp" data-wow-delay="0.1s">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="iGEM2013" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2013</a></h4>
+              <p>...활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp" data-wow-delay="0.2s">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="iGEM2014" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2014</a></h4>
+              <p>활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="iGEM2015" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2015</a></h4>
+              <p>이런 활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp" data-wow-delay="0.1s">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="iGEM2016" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2016</a></h4>
+              <p>...활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-igem wow fadeInUp" data-wow-delay="0.2s">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="iGEM2017" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">iGEM2017</a></h4>
+              <p>활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-etc wow fadeInUp">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="../img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <a href="../img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="CCP2016" title="Preview"><i class="ion ion-eye"></i></a>
+              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            </figure>
+            <div class="portfolio-info">
+              <h4><a href="#">CCP 2016</a></h4>
+              <p>...활동을 했습니다.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section><!-- #portfolio -->
+
+  <!--section id="clients" class="wow fadeInUp">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>Our Clients</h3>
+      </header>
+
+      <div class="owl-carousel clients-carousel">
+        <img src="../img/clients/client-1.png" alt="">
+        <img src="../img/clients/client-2.png" alt="">
+        <img src="../img/clients/client-3.png" alt="">
+        <img src="../img/clients/client-4.png" alt="">
+        <img src="../img/clients/client-5.png" alt="">
+        <img src="../img/clients/client-6.png" alt="">
+        <img src="../img/clients/client-7.png" alt="">
+        <img src="../img/clients/client-8.png" alt="">
+      </div>
+
+    </div>
+  </section><!-- #clients -->
+
+  <!--section id="testimonials" class="section-bg wow fadeInUp">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>Testimonials</h3>
+      </header>
+
+      <div class="owl-carousel testimonials-carousel">
+
+        <div class="testimonial-item">
+          <img src="../img/testimonial-1.jpg" class="testimonial-img" alt="">
+          <h3>Saul Goodman</h3>
+          <h4>Ceo &amp; Founder</h4>
+          <p>
+            <img src="../img/quote-sign-left.png" class="quote-sign-left" alt="">
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+            <img src="../img/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+
+        <div class="testimonial-item">
+          <img src="../img/testimonial-2.jpg" class="testimonial-img" alt="">
+          <h3>Sara Wilsson</h3>
+          <h4>Designer</h4>
+          <p>
+            <img src="../img/quote-sign-left.png" class="quote-sign-left" alt="">
+            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+            <img src="../img/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+
+        <div class="testimonial-item">
+          <img src="../img/testimonial-3.jpg" class="testimonial-img" alt="">
+          <h3>Jena Karlis</h3>
+          <h4>Store Owner</h4>
+          <p>
+            <img src="../img/quote-sign-left.png" class="quote-sign-left" alt="">
+            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+            <img src="../img/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+
+        <div class="testimonial-item">
+          <img src="../img/testimonial-4.jpg" class="testimonial-img" alt="">
+          <h3>Matt Brandon</h3>
+          <h4>Freelancer</h4>
+          <p>
+            <img src="../img/quote-sign-left.png" class="quote-sign-left" alt="">
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+            <img src="../img/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+
+        <div class="testimonial-item">
+          <img src="../img/testimonial-5.jpg" class="testimonial-img" alt="">
+          <h3>John Larson</h3>
+          <h4>Entrepreneur</h4>
+          <p>
+            <img src="../img/quote-sign-left.png" class="quote-sign-left" alt="">
+            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+            <img src="../img/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- #testimonials -->
+
+  <section id="team">
+    <div class="container">
+      <div class="section-header wow fadeInUp">
+        <h3>Team</h3>
+        <p>팀원을 소개합니다!</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
+          <div class="member">
+            <img src="../img/team-1.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>장지윤</h4>
+                <span>student Leader</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img src="../img/team-2.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="member">
+            <img src="../img/team-3.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="member">
+            <img src="../img/team-4.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- #team -->
+
+  <section id="contact" class="section-bg wow fadeInUp">
+    <div class="container">
+
+      <div class="section-header">
+        <h3>Contact Us</h3>
+        <p>문의사항이 있다면 연락주세요</p>
+      </div>
+
+      <div class="row contact-info">
+
+        <div class="col-md-4">
+          <div class="contact-address">
+            <i class="ion-ios-location-outline"></i>
+            <h3>Address</h3>
+            <address>서울특별시 고려대학교 생명대 서관</address>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="contact-phone">
+            <i class="ion-ios-telephone-outline"></i>
+            <h3>Phone Number</h3>
+            <p><a href="tel:+82212345678">02)1234-5678</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:kuaskorea@gmail.com">kuaskorea@gmail.com</a></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!--div class="form">
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            <div class="validation"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+            <div class="validation"></div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div-->
+
+    </div>
+  </section><!-- #contact -->
+
+</main>
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>KUAS</h3>
+          <p>고려대학교 합성생물학회</p>
+          <marquee>회원 상시모집중</marquee><br><br>
+          <p id="d-day">iGEM </p>
+          <script>
+                var countDownDate = new Date("October 25, 2018 00:00:00").getTime();
+                var x = setInterval(function(){
+                    var now = new Date().getTime();
+                    var distance = countDownDate - now;
+                    var d = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var s = Math.floor((distance % (1000 * 60)) / 1000);
+                    document.getElementById("d-day").innerHTML = "iGEM 2018 October 25 - 28, 2018<br>D-day " + d +" : " + h + " : " + m + " : "+ s; });
+			</script>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>바로가기</h4>
+          <ul>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">홈</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">iGEM 위키</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">페이스북</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">이용약관</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="#">개인정보취급방침</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>About Us</h4>
+          <p>
+            <strong>대표:</strong>장지윤<br>
+            <strong>후원담당:</strong>김은민<br>
+            <strong>개인정보관리책임자:</strong>최정원<br>
+          </p>
+
+          <!--div class="social-links">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          </div-->
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+         <h4>Contact Us</h4>
+          <p>
+            서울특별시 고려대학교<br>
+            <strong>Phone:</strong> 02)1234-5678<br>
+            <strong>Email:</strong> kuaskorea@gmail.com<br>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong>KUAS 2018</strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+      -->
+      <!--Designed by <a href="https://gartenchoi.ga/">garten choi</a-->
+    </div>
+  </div>
+</footer><!-- #footer -->
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript ../libraries -->
+<script src="../lib/jquery/jquery.min.js"></script>
+<script src="../lib/jquery/jquery-migrate.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../lib/easing/easing.min.js"></script>
+<script src="../lib/superfish/hoverIntent.js"></script>
+<script src="../lib/superfish/superfish.min.js"></script>
+<script src="../lib/wow/wow.min.js"></script>
+<script src="../lib/waypoints/waypoints.min.js"></script>
+<script src="../lib/counterup/counterup.min.js"></script>
+<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="../lib/isotope/isotope.pkgd.min.js"></script>
+<script src="../lib/lightbox/js/lightbox.min.js"></script>
+<script src="../lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+<!-- Contact Form JavaScript File -->
+
+<!-- Template Main Javascript File -->
+<script src="../js/main.js"></script>
+
+</body>
+</html>
