@@ -36,12 +36,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ko/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="455" column="39" lean-forward="false" selection-start-line="455" selection-start-column="39" selection-end-line="455" selection-end-column="39" />
+            <state relative-caret-position="-2075">
+              <caret line="307" column="8" lean-forward="false" selection-start-line="307" selection-start-column="8" selection-end-line="307" selection-end-column="8" />
               <folding>
                 <element signature="e#1311#1317#0" expanded="true" />
-                <element signature="e#20819#20824#0" expanded="true" />
-                <element signature="e#31466#31472#0" expanded="true" />
+                <element signature="e#20509#20514#0" expanded="true" />
+                <element signature="e#31156#31162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -270,8 +270,8 @@
           <caret line="133" column="25" lean-forward="false" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
           <folding>
             <element signature="e#1311#1317#0" expanded="true" />
-            <element signature="e#20819#20824#0" expanded="true" />
-            <element signature="e#31466#31472#0" expanded="true" />
+            <element signature="e#20509#20514#0" expanded="true" />
+            <element signature="e#31156#31162#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -314,8 +314,8 @@
           <caret line="133" column="25" lean-forward="true" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
           <folding>
             <element signature="e#1311#1317#0" expanded="true" />
-            <element signature="e#20819#20824#0" expanded="true" />
-            <element signature="e#31466#31472#0" expanded="true" />
+            <element signature="e#20509#20514#0" expanded="true" />
+            <element signature="e#31156#31162#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -358,8 +358,8 @@
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding>
             <element signature="e#1311#1317#0" expanded="true" />
-            <element signature="e#20819#20824#0" expanded="true" />
-            <element signature="e#31466#31472#0" expanded="true" />
+            <element signature="e#20509#20514#0" expanded="true" />
+            <element signature="e#31156#31162#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -454,12 +454,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ko/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="455" column="39" lean-forward="false" selection-start-line="455" selection-start-column="39" selection-end-line="455" selection-end-column="39" />
+        <state relative-caret-position="-2075">
+          <caret line="307" column="8" lean-forward="false" selection-start-line="307" selection-start-column="8" selection-end-line="307" selection-end-column="8" />
           <folding>
             <element signature="e#1311#1317#0" expanded="true" />
-            <element signature="e#20819#20824#0" expanded="true" />
-            <element signature="e#31466#31472#0" expanded="true" />
+            <element signature="e#20509#20514#0" expanded="true" />
+            <element signature="e#31156#31162#0" expanded="true" />
           </folding>
         </state>
       </provider>
